@@ -1,0 +1,20 @@
+{
+  "name": "roverlava.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "axios": "^1.5.1",
+    "discord.js": "^14.13.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
