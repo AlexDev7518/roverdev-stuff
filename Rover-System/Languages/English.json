@@ -1,0 +1,89 @@
+{
+        "841350077263249438": {
+                "commands": {
+                        "information": {
+                                "help": {
+                                        "text1": "Hello, The bots help menu is not done yet"
+                                },
+                                "ping": {
+                                        "text1": "Pinging Rover bot API...",
+                                        "text2": "Successfully Pinged Rover API. Output:"
+                                }
+                        },
+                        "setup": {
+                                "ticketsystem": {
+                                        "MissingPerms": "You Don't Have This Following Permissions: ADMINISTRATOR"
+                                }
+                        },
+                        "ticket": {
+                                "close": {}
+                        }
+                }
+        },
+        "878493087482150952": {
+                "commands": {
+                        "information": {
+                                "help": {
+                                        "text1": "Hello, The bots help menu is not done yet"
+                                },
+                                "ping": {
+                                        "text1": "Pinging the discord bot...",
+                                        "text2": "Successfully Pinged the bot Ping:"
+                                }
+                        },
+                        "setup": {
+                                "ticketsystem": {
+                                        "MissingPerms": "You Don't Have This Following Permissions: ADMINISTRATOR"
+                                }
+                        },
+                        "ticket": {
+                                "close": {}
+                        }
+                }
+        },
+        "891602617527058504": {
+                "commands": {
+                        "information": {
+                                "help": {
+                                        "text1": "Hello, The bots help menu is not done yet"
+                                },
+                                "ping": {
+                                        "text1": "Pinging the discord bot...",
+                                        "text2": "Successfully Pinged the bot Ping:"
+                                }
+                        },
+                        "setup": {
+                                "ticketsystem": {
+                                        "MissingPerms": "You Don't Have This Following Permissions: ADMINISTRATOR"
+                                }
+                        },
+                        "ticket": {
+                                "close": {}
+                        }
+                }
+        },
+        "887481377942024272": {
+                "commands": {
+                        "information": {
+                                "help": {
+                                        "text1": "Hello, The bots help menu is not done yet"
+                                },
+                                "ping": {
+                                        "text1": "Pinging the discord bot...",
+                                        "text2": "Successfully Pinged the bot Ping:"
+                                }
+                        },
+                        "setup": {
+                                "ticketsystem": {
+                                        "MissingPerms": "You Don't Have This Following Permissions: ADMINISTRATOR"
+                                }
+                        },
+                        "ticket": {
+                                "close": {}
+                        },
+                        "Developers": {
+                                 "restartbot": {}
+                        }
+                }
+        }
+}

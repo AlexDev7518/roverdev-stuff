@@ -1,0 +1,81 @@
+const { readdirSync } = require("fs");
+const { red, blue, green, yellow } = require("colors");
+
+module.exports = async (Rover) => {
+  Rover.HandlerLoaded = false
+
+  let Commands = []
+
+  readdirSync("./Handlers/Rover/Modules").forEach(CommandDirectory => {
+      const CommandsInFolders = readdirSync("./Handlers/Rover/Modules/" + `${CommandDirectory}/`).filter(f => f.endsWith(".js"))
+
+      for (const Event of CommandsInFolders) {
+
+          require(`../../Handlers/Rover/Modules/${CommandDirectory}/${Event}`)(Rover)
+
+      }
+  })
+
+   Rover.Modulescategories = []
+
+  readdirSync("./Handlers/Rover/Modules").forEach(CommandDirectory => {
+        Rover.Modulescategories.push(`${CommandDirectory}`)
+  })
+
+  let i = 0
+  let i2 = 0
+
+
+  Rover.logger(green(`===============================================> Loading Module `))
+
+  if (Rover.Modulescategories.length < 1) {
+    Rover.logger(red(`============================= No Modules to Load`))
+       return Rover.HandlerLoaded = true
+  }
+
+  Rover.logger(red(`============================= Loading ${Rover.Modulescategories[i]}`))
+
+  const data = {}
+  let LoadedCategory = []
+
+  Rover.Modulescategories.forEach(m => {
+    data[m.split("/")[0]] = []
+  })
+
+
+  setTimeout(() => {
+    Commands.forEach(m => {
+      data[m.split("/")[1]].push(m.split("/")[0])
+    })
+
+    const LoadCommandsInCategory = setInterval(function() {
+
+
+      let ready = true
+    
+
+      if (LoadedCategory.length == Rover.Modulescategories.length) {
+            clearInterval(LoadCommandsInCategory)
+            return Rover.HandlerLoaded = true
+      }
+
+      if (i2 == data[Rover.Modulescategories[i]].length) {
+           LoadedCategory.push(data[Rover.Modulescategories[i]])
+           i++ 
+
+           i2 = 0
+           if (Rover.Modulescategories[i] == undefined) return;
+
+           Rover.logger(red(`============================= Loading ${Rover.Modulescategories[i]}`))
+           
+           ready += true
+      }
+
+      if (ready == true) {
+                Rover.logger(green(`> Successfully Loaded ${data[Rover.Modulescategories[i]][i2]} Module!`))
+                i2++
+      }
+    }, 200)
+
+  }, 1000)
+}
