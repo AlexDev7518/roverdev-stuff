@@ -1,0 +1,7 @@
+{
+   "BotToken": "BOT_TOKEN",
+   "Prefix": "t+",
+   "Owners": [
+       "OWNER_ID"
+   ]
+}

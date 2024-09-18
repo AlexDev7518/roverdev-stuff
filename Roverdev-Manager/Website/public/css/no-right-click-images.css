@@ -1,0 +1,24 @@
+/**********************************************
+
+No Right Click Images plugin
+by Keith P. Graham
+
+Plugin URI: http://www.BlogsEye.com/
+Description: Uses Javascript to prevent right clicking of images to help keep leaches from copying images
+Version: 3.4
+Author: Keith P. Graham
+Author URI: http://www.BlogsEye.com/
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+***********************************************/
+
+img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+

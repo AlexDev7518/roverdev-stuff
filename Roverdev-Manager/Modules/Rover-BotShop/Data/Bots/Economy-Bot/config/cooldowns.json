@@ -1,0 +1,10 @@
+{
+      "DailyCooldown": {
+            "CooldownMessage": "",
+            "ColdownAmount": ""
+      },
+     "WorkCooldown": {
+        "CooldownMessage": "",
+        "ColdownAmount": ""
+  }
+}

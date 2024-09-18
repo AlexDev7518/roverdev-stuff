@@ -1,0 +1,12 @@
+Sat 04-02-2023 17:57:09.7337 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 0 in Handlers
+Sat 04-02-2023 17:57:47.1251 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 0 in Handlers
+Sat 04-02-2023 17:57:53.8448 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 0 in Handlers
+Sat 04-02-2023 17:57:56.1491 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 0 in Handlers
+Sat 04-02-2023 17:57:56.1522 [[32minfo[39m] [[33mDebug[39m] [93m: Provided token: MTA1OTU4Njc4MjEwNDE0MTk2Ng.GjLpzF.**************************************[39m
+Sat 04-02-2023 17:57:56.1532 [[32minfo[39m] [[33mDebug[39m] [93m: Preparing to connect to the gateway...[39m
+Sat 04-02-2023 17:57:56.2693 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Manager was destroyed. Called by:
+Error
+    at WebSocketManager.destroy (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Music-Bot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:323:54)
+    at Client.destroy (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Music-Bot/node_modules/discord.js/src/client/Client.js:251:13)
+    at Client.login (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Music-Bot/node_modules/discord.js/src/client/Client.js:229:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m

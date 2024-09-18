@@ -1,0 +1,16 @@
+> *Finished the Rack System (Fully)*
+> *Added Free-Rack & Booster-Rack*
+> *Finished the Premium System (Still need the autoend)*
+
+***Left To-Do:***
+> *Finish all information commands (Currently Working on it)*
+> *Start on the activity system (Next step)*
+> *Finish the Premium System*
+> *Finish Bot Shop System*
+> *Add Auto-Giveaway to Eco*
+
+
+***After all is done:***
+> *Start working on hosting*
+> *Start finishing the staff system*
+> *Start & Finish the welcome system*

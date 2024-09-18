@@ -1,0 +1,20 @@
+{
+  "name": "channel-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CE-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-cross-hosting": "^2.3.2",
+    "discord-hybrid-sharding": "^1.7.5",
+    "discord.js": "^14.2.0",
+    "enmap": "^5.9.0",
+    "prettysize": "^2.0.0",
+    "systeminformation": "^5.12.5"
+  }
+}

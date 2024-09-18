@@ -1,0 +1,4 @@
+> - *Fixed the Ticket system (Some Staff Options)*
+> - *Fixed the bugs on Eco System (Kept adding more coins then it should of)* :skull:
+> - *Finished the Coins System*
+> - *Started Working on the Rack system*

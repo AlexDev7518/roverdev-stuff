@@ -1,0 +1,3 @@
+> Forgot to add this to Changelog-3
+
+> *Finished the Rover Coins system (Just the commands)*

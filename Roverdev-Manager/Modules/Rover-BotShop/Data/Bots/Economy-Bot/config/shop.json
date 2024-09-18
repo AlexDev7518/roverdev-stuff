@@ -1,0 +1,40 @@
+{
+   "Food": [
+      {"name": "Burger","emoji":"🍔","price":250},
+      {"name":"Pizza","emoji":"🍕","price":245},
+      {"name":"Pancakes","emoji":"🥞","price":350},
+      {"name":"French Fries","emoji":"🍟","price":175}  
+   ],
+   "Technology and Living": [
+      {"name":"IAmPhone 14","emoji":"📱","price": 4500},
+      {"name":"SoonSung Galaxy T45","emoji":"📞","price":3670},
+      {"name":"Tiny Apartment","emoji":"🛋","price":9500},
+      {"name":"Family House","emoji":"🏠","price": 15000},
+      {"name":"MercedesMenz","emoji":"🌟","price":50000},
+      {"name":"Sesla","emoji":"🛞","price":75450} 
+   ],
+
+   "Pets": [
+      {"name":"Cat","emoji":"🐱","price":550},
+      {"name":"Dog","emoji":"🐶","price":650},
+      {"name":"Hamster","emoji":"🐹","price":400},
+      {"name":"Horse","emoji":"🐴","price":1200},
+      {"name":"Fish","emoji":"🐟","price":350},
+      {"name":"Frog","emoji":"🐸","price":450}
+   ],
+
+   "Games":[
+      {"name":"Nintendo69","emoji":"🎮","price":2500},
+      {"name":"DartSimulator - 2019","emoji":"🎯","price":1000},
+      {"name":"FlyingBird v2.5","emoji":"🦅","price":950},
+      {"name":"MinerMiner 2017","emoji":"⛏️","price":1250},
+      {"name":"RollerCoaster Tycoon 2022","emoji":"🎢","price":1750},
+      {"name":"Bobux Generator 2001","emoji":"💵","price":500}
+   ],
+   "Categories":[
+      "Pets",
+      "Food",
+      "Technology and Living",
+      "Games"
+   ]
+}

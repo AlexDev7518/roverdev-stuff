@@ -1,0 +1,20 @@
+{
+  "name": "bot-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-command-cooldown": "^1.0.8",
+    "discord.js": "^14.3.0",
+    "enmap": "^5.9.1",
+    "glob": "^7.1.7",
+    "humanize-duration": "^3.27.3",
+    "winston": "^3.8.1"
+  }
+}

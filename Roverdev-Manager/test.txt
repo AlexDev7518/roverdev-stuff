@@ -1,0 +1,168 @@
+:thumbs_up_AE: Holiday Commands (With Logging)
+
+Models/Holiday.js - 
+const mongoose = require("mongoose");
+
+const Holiday = new mongoose.Schema({
+  author: String,
+  until: Number,
+  msgID: String,
+  chID: String,
+  reason: String,
+  datenow: String,
+});
+module.exports = mongoose.model("Holiday", Holiday);
+
+Events/holidayend.js - 
+const client = require(`${process.cwd()}/index.js`);
+const Schema = require(`${process.cwd()}/Modules/Models/holiday`);
+const Discord = require(`discord.js`);
+const config = require(`${process.cwd()}/BotConfig/config.json`);
+const ms = require('ms');
+const moment = require("moment");
+
+(async() => {
+  const guild = client.config.ServerID;
+  const role = client.config.OnHolidayRoleID
+  setInterval(async() => {
+    const finded = await Schema.find();
+  finded.forEach(async(data) => {
+    if(data.until <= Date.now()){
+      await Schema.findOneAndDelete({
+        author: data.author
+      });
+     const LoggingChannelID = client.channels.cache.get(client.config.HolidayLogChannelID) 
+       const holidayuser = client.users.cache.get(data.author)
+         client.guilds.cache.get(guild).members.cache.get(data.author).roles.remove(role).catch(() => {})
+
+     console.log(data.until)
+      
+      LoggingChannelID.send(`🕐 **<@${data.author}>'s Holidays Is Finished After - ${moment(data.until).format("[`]DD [day(s)][`] [`]H [hour(s)][`] [`]m [min(s)][`] [`]ss [sec][`]")}**`, Date)
+        console.log(data.until)
+      holidayuser.send(`🗓️ **<@${data.author}> Your Leave of Absence has ended. You are Now To Work Again.**`)
+    }
+  })
+  }, 60000)
+})();
+ 
+Commands/Holidayend.js
+const {
+     MessageEmbed
+ } = require("discord.js");
+ const child = require("child_process");
+const emoji = require(`${process.cwd()}/BotConfig/emoji.json`)
+ const Schema = require(""+process.cwd()+"/Modules/Models/holiday");
+ const config = require(`${process.cwd()}/BotConfig/config.json`)
+ const moment = require("moment");
+ const ms = require('ms')
+
+ const onedayinsec = 86400;
+
+ module.exports = {
+     name: "holiday-end",
+ aliases: ["holidayend"],
+   nodefer: true,
+  category: "🌠 Staff",
+     description: "💤 End your Holiday",
+   type: 'CHAT_INPUT',
+
+     run: async (client, message, args) => {
+       const LoggingChannelID = client.channels.cache.get(`${config.HolidayLogChannelID}`)
+const roles = [`${config.StaffRole}`]; //⭐ Roles required to use this command.
+       console.log(message.member.roles.cache.hasAny(...roles))
+       if(!message.member.roles.cache.hasAny(...roles)) return message.reply("❌ **You Can't Run This Command**");
+       
+       Schema.findOne({ author: message.author.id }, async(err, data) => {
+
+         const day = new Date();
+  const time = moment();
+         
+      LoggingChannelID.send(`🕙 ${message.author} **The Leave of Absence for ${message.author.username} Has Finished [Early]**. At  - ${moment(time).format("[`]DD [day(s)][`] [`]H [hour(s)][`] [`]m [min(s)][`] [`]ss [sec][`]")}`, Date)
+      
+       })
+       
+       const holidaySchema = await Schema.findOneAndDelete({
+         author: message.author.id
+       });
+
+      message.reply(`⚒ **${message.author} Successfully Ended Your Holiday Early.**`)
+       client.channels.cache.get(config.CommandLoggingID).send(`${emoji.thumbsup} **(\`${message.author.tag}\`) Used The \`${config.Prefix}holidayend\` Command In ${message.channel} At <t:${Math.floor(Date.now() / 1000)}>.**`)
+       
+       
+    
+       message.member.roles.remove(`${config.OnHolidayRoleID}`).catch((e) => {console.log(e)})
+     }
+ };
+Commands/Holidaystart.js - 
+const {
+    MessageEmbed
+} = require("discord.js");
+const child = require("child_process");
+const config = require(`${process.cwd()}/BotConfig/config.json`);
+const Schema = require(`${process.cwd()}/Modules/Models/holiday`);
+const emoji = require(`${process.cwd()}/BotConfig/emoji.json`)
+const moment = require("moment");
+const ms = require('ms')
+
+const onedayinsec = 86400;
+
+module.exports = {
+    name: "holiday-start",
+    aliases: ["break", "leave", "holiday", "holidaystart"],
+    description: "Need time for yourself?",
+    category: "Developers",
+    usage: "holiday",
+    run: async (client, message, args) => {
+      const LoggingChannelID = client.channels.cache.get(config.HolidayLogChannelID)
+      const roles = [`${config.StaffRole}`]; //⭐ Roles required to use this command.
+      //console.log(message.member.roles.cache.hasAny(...roles))
+      if(!message.member.roles.cache.hasAny(...roles)) return message.reply("❌ **You Can't Run This Command**");
+      let day = args[0];
+      if(!day) return message.channel.send(`❌ **Syntaxerror: Usage: \`${config.Prefix}holiday-start\` <time> [MM/DD/YYYY] | Example: \`${config.Prefix}holiday-start 1day ++ 5 Hours\`.**`);
+      day = ms(day)
+      if(isNaN(day)) return message.channel.send(`❌ **SyntaxError: Invalid Date Provided. Usage: \`${config.Prefix}holiday-start 1d\`**`);
+      day = Date.now() + day
+      var today = new Date(); 
+var time = today;
+      const holidaySchema = await Schema.create({
+        author: message.author.id,
+        until: day,
+        datenow: time,
+        onHolidays: false
+      });
+      if(message.author.id == holidaySchema.author && holidaySchema.onHolidays == true) return message.reply(`**📅 You are Already on HOLIDAY${config.Prefix}**\n> *Please end it first using \`${config.Prefix}holiday-end\` before starting a New one!*`)
+      if(message.member.roles.cache.has(`${config.OnHolidayRoleID}`)) return message.reply(`**📅 You are Already on HOLIDAY!**\n> *Please end it first using \`${config.Prefix}holiday-end\` before starting a new one!*`)
+      // const backday = moment.unix(day/1000).format('MMMM Do YYYY, h:mm a');
+      holidaySchema.onHolidas = true
+      LoggingChannelID.send(`**📅 ${message.author} (\`${message.author.tag}\`) Went on Holiday Until:** **<t:${Math.floor(day/1000)}>**`);
+     message.reply(`📅 **You Successfuly Went on Holiday Until** <t:${Math.floor(day/1000)}>!`)
+      client.channels.cache.get(config.CommandLoggingID).send(`${emoji.thumbsup} **(\`${message.author.tag}\`) Used The \`${config.Prefix}holidaystart\` Command In ${message.channel} At <t:${Math.floor(Date.now() / 1000)}>.**`)
+      const embed = new MessageEmbed()
+       .setAuthor({ name: `📅 Holiday Set Successful!`, iconURL: message.author.displayAvatarURL({ dynamic: true, format: "png", size: 2048 }) })
+      .setDescription(`> **You Are On Holiday Until:** **<t:${Math.floor(day/1000)}>** \n
+> ${emoji.worryenjoying} ***Your Holiday Role Will Be Removed After Your Holiday Is Over, And Your Message Will Begin Counting Again.***\n\n ${emoji.rules} **__Server Holiday Rules:__** ${emoji.rules}
+
+${emoji.star} **001**
+> *You Can't Be Active In General Chat.*
+
+${emoji.star} **002** 
+> *You Can't Be Active In Tickets.*
+
+${emoji.star} **003** 
+> *You Are Not Allowed To Send Message In The Server.*
+
+${emoji.star} **004** 
+> *You Are Not Allowed To Ping Anyone.*
+
+${emoji.star} **005** 
+> *You Are Not Allowed To Take Extra Holiday.*
+
+${emoji.notepad} **Note**: ***if you are, we will assume you are competent and force you to return to work.***`)
+      .setFooter(`Use ${config.Prefix}holiday-end to end it Early!`, message.guild.iconURL())
+      .setThumbnail(message.guild.iconURL())
+      .setColor("BLUE")
+      .setTimestamp()
+      message.author.send({ embeds: [embed] })
+      message.member.roles.add(config.OnHolidayRoleID).catch((e) => {console.log(e)})
+    }
+};

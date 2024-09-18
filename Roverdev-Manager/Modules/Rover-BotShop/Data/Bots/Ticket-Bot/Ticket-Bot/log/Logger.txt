@@ -1,0 +1,170 @@
+Tue 24-01-2023 04:55:01.5766 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading information Directory
+Tue 24-01-2023 04:55:01.5786 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded help | In: information
+Tue 24-01-2023 04:55:01.5796 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded ping | In: information
+Tue 24-01-2023 04:55:01.5796 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading setup Directory
+Tue 24-01-2023 04:55:01.5826 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded setup-ticket | In: setup
+Tue 24-01-2023 04:55:01.5826 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading ticket Directory
+Tue 24-01-2023 04:55:01.5836 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded close | In: ticket
+Tue 24-01-2023 04:55:01.5856 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded commands.js
+Tue 24-01-2023 04:55:01.5866 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: ready.js
+Tue 24-01-2023 04:55:01.5866 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: channelDelete.js
+Tue 24-01-2023 04:55:01.5896 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: interactionCreate.js
+Tue 24-01-2023 04:55:01.5906 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: messageCreate.js
+Tue 24-01-2023 04:55:01.5916 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded events.js
+Tue 24-01-2023 04:55:01.5916 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 2 in Handlers
+Tue 24-01-2023 04:55:01.5926 [[32minfo[39m] [[33mDebug[39m] [93m: Provided token: MTAwMTkwMzcwMzk5OTEzNTgyNQ.G9k-TA.**************************************[39m
+Tue 24-01-2023 04:55:01.5936 [[32minfo[39m] [[33mDebug[39m] [93m: Preparing to connect to the gateway...[39m
+Tue 24-01-2023 04:55:01.5956 [[32minfo[39m] [[33mEvent-Handler[39m] Successfully Loaded 4 of Events
+Tue 24-01-2023 04:55:01.6416 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded help 
+Tue 24-01-2023 04:55:01.6426 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded ping 
+Tue 24-01-2023 04:55:01.6426 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded setup-ticket 
+Tue 24-01-2023 04:55:01.6436 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded close 
+Tue 24-01-2023 04:55:01.7227 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Manager was destroyed. Called by:
+Error
+    at WebSocketManager.destroy (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Ticket-Bot/node_modules/discord.js/src/client/websocket/WebSocketManager.js:323:54)
+    at Client.destroy (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Ticket-Bot/node_modules/discord.js/src/client/Client.js:257:13)
+    at Client.login (/home/Roverdev-Manager/Modules/Rover-BotShop/Data/Bots/Ticket-Bot/node_modules/discord.js/src/client/Client.js:235:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+Tue 24-01-2023 04:55:13.6657 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading information Directory
+Tue 24-01-2023 04:55:13.6677 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded help | In: information
+Tue 24-01-2023 04:55:13.6687 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded ping | In: information
+Tue 24-01-2023 04:55:13.6687 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading setup Directory
+Tue 24-01-2023 04:55:13.6707 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded setup-ticket | In: setup
+Tue 24-01-2023 04:55:13.6717 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading ticket Directory
+Tue 24-01-2023 04:55:13.6717 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded close | In: ticket
+Tue 24-01-2023 04:55:13.6737 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded commands.js
+Tue 24-01-2023 04:55:13.6737 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: ready.js
+Tue 24-01-2023 04:55:13.6747 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: channelDelete.js
+Tue 24-01-2023 04:55:13.6767 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: interactionCreate.js
+Tue 24-01-2023 04:55:13.6767 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: messageCreate.js
+Tue 24-01-2023 04:55:13.6767 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded events.js
+Tue 24-01-2023 04:55:13.6777 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 2 in Handlers
+Tue 24-01-2023 04:55:13.6777 [[32minfo[39m] [[33mDebug[39m] [93m: Provided token: MTAyMjM2NDg2MDg0MDk1NTk2NA.G6wo3S.**************************************[39m
+Tue 24-01-2023 04:55:13.6777 [[32minfo[39m] [[33mDebug[39m] [93m: Preparing to connect to the gateway...[39m
+Tue 24-01-2023 04:55:13.6797 [[32minfo[39m] [[33mEvent-Handler[39m] Successfully Loaded 4 of Events
+Tue 24-01-2023 04:55:13.7027 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded help 
+Tue 24-01-2023 04:55:13.7027 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded ping 
+Tue 24-01-2023 04:55:13.7027 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded setup-ticket 
+Tue 24-01-2023 04:55:13.7027 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded close 
+Tue 24-01-2023 04:55:13.7878 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1[39m
+Tue 24-01-2023 04:55:13.7878 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 980[39m
+Tue 24-01-2023 04:55:13.7878 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Using the recommended shard count provided by Discord: 1[39m
+Tue 24-01-2023 04:55:13.7878 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Spawning shards: 0[39m
+Tue 24-01-2023 04:55:13.7888 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 10
+    Encoding   : json
+    Compression: none[39m
+Tue 24-01-2023 04:55:13.7898 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Setting a HELLO timeout for 20s.[39m
+Tue 24-01-2023 04:55:13.8338 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [CONNECTED] Took 44ms[39m
+Tue 24-01-2023 04:55:13.8348 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Clearing the HELLO timeout.[39m
+Tue 24-01-2023 04:55:13.8348 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Setting a heartbeat interval for 41250ms.[39m
+Tue 24-01-2023 04:55:13.8358 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 65535[39m
+Tue 24-01-2023 04:55:13.95410 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [READY] Session 9fc7f147d29b3ab3c1bfe57df6618655.[39m
+Tue 24-01-2023 04:55:13.95510 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.[39m
+Tue 24-01-2023 04:55:13.95710 [[32minfo[39m] [[33mBot Status[39m] Succesfully Logged in to Panel Bot
+Tue 24-01-2023 04:55:13.96010 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.[39m
+Tue 24-01-2023 04:55:13.97110 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 16ms.[39m
+Tue 24-01-2023 04:55:55.0861 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:55:55.1001 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 14ms.[39m
+Tue 24-01-2023 04:56:36.3373 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:56:36.3534 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 16ms.[39m
+Tue 24-01-2023 04:57:17.5886 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:57:17.6036 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 15ms.[39m
+Tue 24-01-2023 04:57:58.8418 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:57:58.8569 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 14ms.[39m
+Tue 24-01-2023 04:58:40.0931 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:58:40.1071 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 14ms.[39m
+Tue 24-01-2023 04:59:21.3493 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 04:59:21.3644 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 15ms.[39m
+Tue 24-01-2023 05:00:02.6006 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:00:02.6436 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 43ms.[39m
+Tue 24-01-2023 05:00:43.8529 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:00:43.8739 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 21ms.[39m
+Tue 24-01-2023 05:01:25.1031 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:01:25.1191 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 16ms.[39m
+Tue 24-01-2023 05:02:06.3554 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:02:06.3714 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 15ms.[39m
+Tue 24-01-2023 05:02:47.6096 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:02:47.6246 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 14ms.[39m
+Tue 24-01-2023 05:03:28.8599 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:03:28.8749 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 15ms.[39m
+Tue 24-01-2023 05:04:10.1101 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:04:10.1261 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 15ms.[39m
+Tue 24-01-2023 05:04:51.3644 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.[39m
+Tue 24-01-2023 05:04:51.3824 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 17ms.[39m
+Tue 24-01-2023 05:05:23.0811 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading information Directory
+Tue 24-01-2023 05:05:23.0831 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded help | In: information
+Tue 24-01-2023 05:05:23.0841 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded ping | In: information
+Tue 24-01-2023 05:05:23.0841 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading setup Directory
+Tue 24-01-2023 05:05:23.0871 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded setup-ticket | In: setup
+Tue 24-01-2023 05:05:23.0871 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading ticket Directory
+Tue 24-01-2023 05:05:23.0871 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded close | In: ticket
+Tue 24-01-2023 05:05:23.0891 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded commands.js
+Tue 24-01-2023 05:05:23.0901 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: ready.js
+Tue 24-01-2023 05:05:23.0901 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: channelDelete.js
+Tue 24-01-2023 05:05:23.0921 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: interactionCreate.js
+Tue 24-01-2023 05:05:23.0931 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: messageCreate.js
+Tue 24-01-2023 05:05:23.0931 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded events.js
+Tue 24-01-2023 05:05:23.0931 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 2 in Handlers
+Tue 24-01-2023 05:05:23.0941 [[32minfo[39m] [[33mDebug[39m] [93m: Provided token: MTAyMjM2NDg2MDg0MDk1NTk2NA.G6wo3S.**************************************[39m
+Tue 24-01-2023 05:05:23.0941 [[32minfo[39m] [[33mDebug[39m] [93m: Preparing to connect to the gateway...[39m
+Tue 24-01-2023 05:05:23.0961 [[32minfo[39m] [[33mEvent-Handler[39m] Successfully Loaded 4 of Events
+Tue 24-01-2023 05:05:23.1141 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded help 
+Tue 24-01-2023 05:05:23.1151 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded ping 
+Tue 24-01-2023 05:05:23.1151 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded setup-ticket 
+Tue 24-01-2023 05:05:23.1151 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded close 
+Tue 24-01-2023 05:05:23.2172 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1[39m
+Tue 24-01-2023 05:05:23.2182 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 979[39m
+Tue 24-01-2023 05:05:23.2182 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Using the recommended shard count provided by Discord: 1[39m
+Tue 24-01-2023 05:05:23.2182 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Spawning shards: 0[39m
+Tue 24-01-2023 05:05:23.2182 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 10
+    Encoding   : json
+    Compression: none[39m
+Tue 24-01-2023 05:05:23.2182 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Setting a HELLO timeout for 20s.[39m
+Tue 24-01-2023 05:05:23.2613 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [CONNECTED] Took 42ms[39m
+Tue 24-01-2023 05:05:23.2623 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Clearing the HELLO timeout.[39m
+Tue 24-01-2023 05:05:23.2623 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Setting a heartbeat interval for 41250ms.[39m
+Tue 24-01-2023 05:05:23.2623 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 65535[39m
+Tue 24-01-2023 05:05:23.3654 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [READY] Session b291ca41a3f2aa29f5e1b1533ff62260.[39m
+Tue 24-01-2023 05:05:23.3654 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.[39m
+Tue 24-01-2023 05:05:23.3674 [[32minfo[39m] [[33mBot Status[39m] Succesfully Logged in to Panel Bot
+Tue 24-01-2023 05:05:23.3804 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.[39m
+Tue 24-01-2023 05:05:23.3864 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Shard 0] Heartbeat acknowledged, latency of 20ms.[39m
+Fri 05-05-2023 10:46:04.8228 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading information Directory
+Fri 05-05-2023 10:46:04.8268 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded help | In: information
+Fri 05-05-2023 10:46:04.8278 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded ping | In: information
+Fri 05-05-2023 10:46:04.8278 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading setup Directory
+Fri 05-05-2023 10:46:04.8328 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded setup-ticket | In: setup
+Fri 05-05-2023 10:46:04.8328 [[32minfo[39m] [[33mCommand Logger[39m] -----> Now Loading ticket Directory
+Fri 05-05-2023 10:46:04.8348 [[32minfo[39m] [[33mCommand Logger[39m] Succesfully Loaded close | In: ticket
+Fri 05-05-2023 10:46:04.8378 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded commands.js
+Fri 05-05-2023 10:46:04.8398 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: ready.js
+Fri 05-05-2023 10:46:04.8418 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: channelDelete.js
+Fri 05-05-2023 10:46:04.8458 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: interactionCreate.js
+Fri 05-05-2023 10:46:04.8478 [[32minfo[39m] [[33mEvent-Handler[39m] Succesfully Loaded Event: messageCreate.js
+Fri 05-05-2023 10:46:04.8478 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded events.js
+Fri 05-05-2023 10:46:04.8478 [[32minfo[39m] [[33mHandlers[39m] Succesfully Loaded 2 in Handlers
+Fri 05-05-2023 10:46:04.8488 [[32minfo[39m] [[33mDebug[39m] [93m: Provided token: _TOKEN[39m
+Fri 05-05-2023 10:46:04.8498 [[32minfo[39m] [[33mDebug[39m] [93m: Preparing to connect to the gateway...[39m
+Fri 05-05-2023 10:46:04.8539 [[32minfo[39m] [[33mEvent-Handler[39m] Successfully Loaded 4 of Events
+Fri 05-05-2023 10:46:04.9179 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded help 
+Fri 05-05-2023 10:46:04.9189 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded ping 
+Fri 05-05-2023 10:46:04.9189 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded setup-ticket 
+Fri 05-05-2023 10:46:04.9189 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded close 
+Fri 05-05-2023 10:46:05.0901 [[32minfo[39m] [[33mDebug[39m] [93m: [WS => Manager] Manager was destroyed. Called by:
+Error
+    at WebSocketManager.destroy (C:\Users\duded\Downloads\Bots\Roverdev-Manager\Modules\Rover-BotShop\Data\Bots\Ticket-Bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:323:54)
+    at Client.destroy (C:\Users\duded\Downloads\Bots\Roverdev-Manager\Modules\Rover-BotShop\Data\Bots\Ticket-Bot\node_modules\discord.js\src\client\Client.js:257:13)
+    at Client.login (C:\Users\duded\Downloads\Bots\Roverdev-Manager\Modules\Rover-BotShop\Data\Bots\Ticket-Bot\node_modules\discord.js\src\client\Client.js:235:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m

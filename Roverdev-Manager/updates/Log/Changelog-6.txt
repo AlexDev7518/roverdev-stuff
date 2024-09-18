@@ -1,0 +1,5 @@
+> *Added Anti-Spam to the server*
+> *Almost done with the messages / activity system!*
+
+**Next:**
+> *Anti-Toxic System*
