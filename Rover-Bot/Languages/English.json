@@ -1,0 +1,23 @@
+{
+        "commands": {
+                "information": {
+                    "help": {
+                           "text1": "Hello, The bots help menu is not done yet"
+                    },
+                    "ping": {
+                           "text1": "Pinging the discord bot...",
+                           "text2": "Successfully Pinged the bot Ping:"
+                    }
+                },
+                "setup": {
+                         "setup-ticket": {
+                                 "MissingPerms": "You Don't Have This Following Permissions: ADMINISTRATOR"
+                         }
+                },
+                "ticket": {
+                         "close": {
+                                   
+                         }
+                }
+        }
+}

@@ -1,0 +1,21 @@
+// Change the File name to config.js
+Paste This In: 
+
+
+module.exports = {
+     Token: "",
+    Testing: true,
+    BackupDatabase: false,
+    MoveDatabase: false,
+    Database: false,
+    Logger: false,
+     prefix: "b",
+     Emojis: {
+          Accepted: "<:check:1005732038004981780>",
+          Declined: "<:declined:1005930821934399488>",
+          Error: "<:error:1012349669164199966>",
+   },
+   Channels: {
+        TicketChannel: "1011647753144766594"
+   }
+}

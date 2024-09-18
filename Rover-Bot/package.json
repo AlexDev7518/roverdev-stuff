@@ -1,0 +1,20 @@
+{
+  "name": "rover-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AlexDev#7518",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.1.0",
+    "colors": "^1.4.0",
+    "discord.js": "^14.7.1",
+    "free-translate": "^0.6.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.2",
+    "translate-google": "^1.5.0"
+  }
+}

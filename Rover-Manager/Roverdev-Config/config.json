@@ -1,0 +1,30 @@
+
+{
+    "Token": "",
+    "prefix": "r?",
+    "Owners": [
+        "663442537222242306" , 
+        "647962247666073610"
+    ],
+    "nodes": [
+        {
+           "host": "node1.roverdev.xyz",
+           "port": 2334,
+           "password": "discord.gg/roverdev",
+           "secure": false
+        }
+     ],
+    "Testing": false,
+    "BackupDatabase": false,
+    "MoveDatabase": true,
+    "Database": true,
+    "Logger": true,
+      "Emojis" : { 
+          "Accepted": "<:check:1005732038004981780>",
+         "Declined": "<:declined:1005930821934399488>",
+         "Error": "<:error:1012349669164199966>"
+      },
+      "Channels": {
+          "TicketChannel": "1040957313734938665"
+      }
+}

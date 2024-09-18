@@ -1,0 +1,2 @@
+Thu 15-09-2022 18:35:23.4464 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded Help 
+Thu 15-09-2022 18:35:58.2823 [[32minfo[39m] [[33mSlash Command Logger[39m] Succesfully Loaded Help 
