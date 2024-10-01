@@ -13,7 +13,7 @@
     "discord-cross-hosting": "^2.3.2",
     "discord-hybrid-sharding": "^2.0.0",
     "discord.js": "^14.2.0",
-    "enmap": "^5.9.0",
+    "enmap": "^6.0.0",
     "prettysize": "^2.0.0",
     "systeminformation": "^5.12.5"
   }
