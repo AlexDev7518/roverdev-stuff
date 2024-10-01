@@ -34,7 +34,7 @@
     "moment": "^2.29.4",
     "moment-duration-format": "^2.3.2",
     "ms": "^2.1.3",
-    "node-scp": "^0.0.18",
+    "node-scp": "^0.0.23",
     "passport": "^0.6.0",
     "passport-discord": "^0.1.4",
     "prettysize": "^2.0.0",
