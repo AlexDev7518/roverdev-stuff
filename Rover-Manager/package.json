@@ -38,7 +38,7 @@
     "passport": "^0.6.0",
     "passport-discord": "^0.1.4",
     "prettysize": "^2.0.0",
-    "react-toastify": "^9.0.7",
+    "react-toastify": "^10.0.0",
     "remote-sqlite-database": "^1.0.8",
     "request": "^2.88.2",
     "ssh2": "^1.11.0",
