@@ -12,7 +12,7 @@
     "colors": "^1.4.0",
     "discord-command-cooldown": "^1.0.8",
     "discord.js": "^14.3.0",
-    "enmap": "^5.9.1",
+    "enmap": "^6.0.0",
     "glob": "^11.0.0",
     "humanize-duration": "^3.27.3",
     "winston": "^3.8.1"
