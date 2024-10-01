@@ -14,7 +14,7 @@
     "discord.js": "^14.7.1",
     "free-translate": "^0.6.1",
     "moment": "^2.29.4",
-    "mongoose": "^6.9.2",
+    "mongoose": "^8.0.0",
     "translate-google": "^1.5.0"
   }
 }
