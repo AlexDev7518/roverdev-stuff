@@ -33,7 +33,7 @@
     "express-layout": "^0.1.0",
     "express-session": "^1.17.3",
     "fs": "^0.0.1-security",
-    "glob": "^7.2.3",
+    "glob": "^11.0.0",
     "humanize-duration": "^3.28.0",
     "math-expression-evaluator": "^2.0.2",
     "memorystore": "^1.6.7",
